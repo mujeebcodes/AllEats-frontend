@@ -11,8 +11,7 @@ import { Link } from "react-router-dom";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 
-type Props = {};
-const UsernameMenu = (props: Props) => {
+const UsernameMenu = () => {
   const { user, logout } = useAuth0();
   return (
     <DropdownMenu>
